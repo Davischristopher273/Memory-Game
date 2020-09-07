@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Memory Game!</h1>
+    <div class="gameData">
+    <span class='score'>Score:<span id="score"> </span></span>
+    <span class='highScore'>High Score:<span id="highScore"></span><span></span>
+  </div>
+    <div class="display">
+      <div id="game"></div>
+    </div>
+    <div id="buttons">
+      <button name="startGame">Start Game</button>
+      <button name="resetGame">Reset Game</button>
+    </div>
+
+    <section class="memory-game">
+    <div class="memory-card" data-framework="rook">
+        <img class="front-face" src="img/GargoyleRook.jpg" alt="rook">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="rook">
+        <img class="front-face" src="img/GargoyleRook.jpg" alt="rook">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="knight">
+        <img class="front-face" src="img/GargoyleKnight.jpg" alt="knight">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="knight">
+        <img class="front-face" src="img/GargoyleKnight.jpg" alt="knight">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="bishop">
+        <img class="front-face" src="img/GargoyleBishop.jpg" alt="bishop">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="bishop" >
+        <img class="front-face" src="img/GargoyleBishop.jpg" alt="bishop">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="queen">
+        <img class="front-face" src="img/GargoyleQueen.jpg" alt="queen">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="queen">
+        <img class="front-face" src="img/GargoyleQueen.jpg" alt="queen">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="king"> 
+        <img class="front-face" src="img/GargoyleKing.jpg" alt="king">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    <div class="memory-card" data-framework="king">
+        <img class="front-face" src="img/GargoyleKing.jpg" alt="king">
+        <img class="back-face" src="img/koicardback.jpg" alt="memory card">
+    </div>
+    </section>
+        <script src="scripts.js"></script> 
+</body>
+</html>
